@@ -6,7 +6,7 @@ here are the links for every sub-topic file alone.
 
 
 1.BASIC
- https://github.com/T1To48/4W_JAVASCRIPT_excersices/tree/master/exc_1_(Basic)
+https://github.com/T1To48/4W_JAVASCRIPT_excersices/tree/master/exc_1_(Basic)
 
 2.SIMPLE MATH
 https://github.com/T1To48/4W_JAVASCRIPT_excersices/tree/master/exc_2_(Simple%20Math)
