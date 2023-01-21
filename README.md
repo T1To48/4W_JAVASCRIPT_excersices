@@ -1,5 +1,8 @@
 # 4W_JAVASCRIPT_excersices
 
+Javascript excercises, beginners-level ,
+ to help understand the LOGIC of Javascript.
+
 I have used the sub-topics as file names and in each file organized
 all the excercises that belong to each sub-topic.
 here are the links for every sub-topic file alone.
