@@ -1,15 +1,26 @@
-function sumLowst2(numsArr){
-  let m1n=Math.min(...numsArr);
+// An isogram is a word that has no repeating letters, consecutive or non-consecutive. Implement
+// a function that determines whether a string that contains only letters is an isogram. Assume the
+// empty string is an isogram. Ignore letter case.
+// islsogram("Dermatoglyphics") ==true
+// islsogram("aba") ==false
+// islsogram("moOse") ==false // -- ignore letter case
+function isIsogram(str){
+  let arr=str.toUpperCase().split('');
   
-  if (numsArr.length>=4){
-    let minIndx=numsArr.indexOf(m1n);
-    numsArr.splice(minIndx);
-     let secondm1n = Math.min(...numsArr);
-     let sumOFLowest2=(m1n + secondm1n); 
-     return sumOFLowest2; 
-  }
-  else {console.log('the minimum is 4 diffrent integers');}
+for(let x=0;x<arr.length;x++){
+  let results=[];
+   let res=[];
+  const accum=arr.reduce((obj,actual)=>{
+     if(!obj[actual]) obj[actual]=0;
+     obj[actual]++
+     return obj;
+
+  },{})
+  results.push(Object.values(accum));
+  results.sort((a,b)=>a-b);
+return results;;
   
 }
-let arrr=[5,10,50,1];
-console.log(sumLowst2([5,10,50,19]));
+
+}
+console.log(isIsogram("abrtt"))

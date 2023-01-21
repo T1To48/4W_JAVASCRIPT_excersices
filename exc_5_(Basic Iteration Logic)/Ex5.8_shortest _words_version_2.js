@@ -3,9 +3,9 @@
 function longest(str){
    let arr=str.split(' ');
    arr.sort((a,b)=>b.length-a.length);
-   return arr[0].length;
+   return arr[0];
 }
 
-let satz="lorem ipsum 123456789 dolores machitos ";
+let satz="lorem ipsum mediterranean dolores  machitos ";
 
 console.log(longest(satz));
